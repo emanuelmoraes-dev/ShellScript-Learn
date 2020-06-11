@@ -1,10 +1,5 @@
 # Lista de comandos para Shell Script
 
-## Autores e Colaboradores
-* Emanuel Moraes
-  * emanuelmoraes-dev
-  * emanuelmoraes297@gmail.com
-
 ## Buscar programa pelo terminal (( p/ Ubuntu/Debian e derivados ))
 
 ```sh
