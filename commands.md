@@ -665,3 +665,10 @@ du -hs <arquivo>
 ```sh
 df -h
 ```
+
+## Verificar se o servidor gráfico é X11 ou Wayland
+
+```sh
+echo $XDG_SESSION_TYPE
+```
+
