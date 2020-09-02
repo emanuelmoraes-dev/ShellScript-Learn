@@ -446,14 +446,14 @@ mkisofs -o <path>.iso <diretório de arquivos>
 dd if=/dev/<cdrom> of=<path>.iso
 ```
 
-## Reinstalar drivers de som (( p/ Ubuntu/Debian e derivados ))
+## Reinstalar drivers de som (( p/ Ubuntu/Debian e derivados )) (( Depois reinicia o pc ))
 
 ```sh
-sudo apt-get remove alsa-utils alsamixer pulseaudio
+sudo apt-get purge pulseaudio alsa-utils alsamixer
 ```
 
 ```sh
-sudo apt-get purge pulseaudio
+sudo apt-get remove pulseaudio alsa-utils alsamixer
 ```
 
 ```sh
