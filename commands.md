@@ -672,3 +672,8 @@ df -h
 echo $XDG_SESSION_TYPE
 ```
 
+## Gerar pastas padrão no home do usuário
+
+```sh
+xdg-user-dirs-update # Disponível pelo pacote "xdg-user-dirs"
+```
