@@ -283,7 +283,7 @@ hp-setup -i
 ## Instalar chave pública
 
 ```sh
-gpg --recv-keys <chave>
+gpg --keyserver hkp://keys.gnupg.net --recv-keys <chave>
 ```
 
 ## Arch inserir linguagens
